@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     
+        
+    /* .main {
+        position: relative;
+    } */
+     
+     .scrollbar{
+        background:red;
+        /* position: -webkit-sticky; */
+        position: sticky;
+        top: 0;
+        width: 1200px;
+        height: 50px;
+     }
+     .scrollbar__hai{
+        height: 10000px;
+        width: 10%;
+        background-color: aqua;
+    }
+    p{
+        background-color: black;
+        position: fixed;
+    }
+
+</style>
+</head>
+
+<body>
+    <!--
+        Quy tắc đặt tên class
+        - không đặt tên số
+        -đặt theo tên tiếng anh
+        -đặt tên theo chuẩn Bem
+        Bem:
+        block: thằng cha to nhất
+        elment: thằng con
+        modifier: bỏ nghĩa cho block or element
+
+
+        trước khi đi cs thì reset lại dể đưa cs veef trạng thái ban đầu 
+        
+
+        ngoài px,% các đơn vị khác của là em ,rem
+        1,rem phụ thuộc vào màn hành
+        2,em phụ thuộc vào thằng cha chứa nó
+
+
+
+        CSS3
+        phien bản nâng cấp của Cs
+        -cung cấp các bộ chọn selector mới
+        1, nã nàu ,rgha
+        2, đổ bóng: drop shadow
+        ******
+        posotion: định vị trí
+        1, static : dịnh vị trí
+        -static
+        -relative: vị trí twogn đối
+        nó sẽ lấy vị trí ban đàu làm gốc đang đứng, rồi set các thuộc tính 
+        top, left , bottom, right để di chuyển
+        -absolute: vị trí tuyệt dối
+        nó ăn theo thằng cha chứa nó gần nhất có thuộc tính posotinon< nếu thằng cha chứa nó không co posotion thì ăn theo màn hình trình duyệt>
+        - fixed tạo thanh header: tạo thanh cố định
+        -sticky khi dùng thanh cuộn đến vị trí thì tiếp tục giữ nguyên
+    -->
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero quas facilis corporis nemo quidem id eum sint accusamus non unde esse ipsam provident obcaecati, culpa placeat numquam! Quas, in corporis!</p>
+
+        <div class=scrollbar>
+            <ul>
+                <li>d</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+            </ul>
+    
+        </div>
+        <div class="scrollbar__hai">
+            <p>ádasd</p>
+        </div>
+    
+    
+</body>
+
+</html>
